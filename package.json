@@ -1,7 +1,6 @@
 {
   "name": "name",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +9,7 @@
     "IE 11",
     "Firefox ESR"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/clarytea/project#readme",
   "devDependencies": {
     "browser-sync": "^2.26.10",
     "del": "^5.1.0",
@@ -20,13 +19,25 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^4.1.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-watch": "^5.0.1",
     "node-sass": "^4.14.1"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "gulp-postcss": "^9.0.0",
-    "gulp-sourcemaps": "^3.0.0",
     "postcss": "^8.2.8"
-  }
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarytea/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarytea/project/issues"
+  },
+  "description": ""
 }

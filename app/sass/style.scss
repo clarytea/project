@@ -1,17 +1,12 @@
-.header {
-    &__logo {
-        width: 108px;
-	    height: 24px;
-	    display: block;
-    }
-    &__main-menu 
-        a {
-            font-style: normal;
-	        font-weight: 600;
-	        font-size: 14px;
-	        line-height: 24px;
-	        color: #737373;
-	        text-decoration: none;
-	        margin-left: 20px;
-        }
-}
+@import 'variables';
+@import 'fonts';
+@import 'main';
+@import 'blocks/header';
+@import 'blocks/main-heading';
+@import 'blocks/features';
+@import 'blocks/service-section';
+@import 'blocks/team-section';
+@import 'blocks/feedbacks';
+@import 'blocks/friends-section';
+@import 'blocks/stories-section';
+@import 'blocks/footer'
