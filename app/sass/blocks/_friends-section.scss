@@ -1,0 +1,89 @@
+.friends-section {
+    background-color: white;
+    padding-top: 15px;
+}
+
+.friend-logo-collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 375px) {
+    .friends-section {
+        &__heading {
+            margin: 30px 0;
+            text-align: center;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $dark-blue;
+        }
+    }
+
+    .friend-logo-collection {
+        display: flex;
+        .friend-logo-box {
+            width:50%
+        }
+    }
+
+    .friend-logo-box {
+        width:50%;
+        height: 90px;
+        display: block;
+        padding: 10px 10px;
+        &--hillel {
+           background-color: #1C4280; 
+        }
+        &--wannabiz {
+            background-color: #143646; 
+        }         
+        &--tapgerine {
+            background-color: #F48B30; 
+        }         
+        &--3dlook {
+            background-color: #9E4DC3; 
+        }         
+        &--orangear {
+            background-color: #FD9339; 
+        }         
+        &--adtelligent {
+            background-color: #E2E2E4; 
+        }         
+        &--clickky {
+            background-color: #C71C36; 
+        }         
+        &--ecoeasing {
+            background-color: #DCF3F9; 
+        }         
+        &--infratek {
+            background-color: #EAEAEA; 
+        }
+        &--citipark {
+            background-color: #282240; 
+        }         
+        &--artprintstudio {
+            background-color: #1D4568; 
+        }        
+        &--ultimate-card {
+            background-color: #000000; 
+        }
+        .friend-logo {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .friend-logo-collection {
+        display: flex;
+        flex: wrap;
+        .friend-logo-box {
+            padding: 20px 70px;
+            width: 25%;
+        }
+    }
+}
